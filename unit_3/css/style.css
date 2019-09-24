@@ -5,10 +5,319 @@ body {
     background-color: white;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h4, h5, h6, p { 
+	font-family: Poppins, Lato, Roboto;
     color: black;
 }
 
-h1{
-	font-family: 'Poppins', sans-serif;
+
+h1 {
+position: absolute;
+left: 12.38%;
+right: 33.62%;
+top: 3.89%;
+bottom: 90.58%;
+
+font-family: Poppins, Lato, Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 102.5%;
+/* or 61px */
+letter-spacing: -0.05em;
+
+color: #000000;
+}
+
+h2 {
+position: absolute;
+left: 34.75%;
+right: 35.19%;
+top: 18.78%;
+bottom: 79.8%;
+
+font-family: Poppins, Lato, Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 120%;
+/* or 60px */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+}
+
+h3 {
+position: absolute;
+left: 34.75%;
+right: 35.19%;
+top: 18.78%;
+bottom: 79.8%;
+
+font-family: Poppins,Lato, Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 120%;
+/* or 60px */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+}
+
+.mid-body-text {
+position: absolute;
+width: 659.22px;
+height: 227px;
+left: 198px;
+top: 443px;
+
+font-family: Poppins, Lato, Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+
+.big-body-text {
+position: absolute;
+left: 25.25%;
+right: 25.38%;
+top: 20.96%;
+bottom: 77.13%;
+
+font-family: Poppins, Lato, Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 180%;
+/* or 40px */
+text-align: center;
+
+/* Gray 1 */
+background: #333333;
+
+}
+
+.pillar-header {
+position: absolute;
+height: 24px;
+left: 19.19%;
+right: 67.25%;
+top: calc(50% - 24px/2 - 975px);
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;	
+}
+
+.pillar-body {
+position: absolute;
+left: 17.56%;
+right: 65.62%;
+top: 28.01%;
+bottom: 70.59%;
+
+font-family: Poppins, Lato, Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+text-align: center;
+
+color: rgba(0, 0, 0, 0.54);
+}
+
+.process-pillar-header{
+position: absolute;
+left: 19.5%;
+right: 67.12%;
+top: 50.26%;
+bottom: 48.12%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+text-align: center;
+
+color: #000000;
+}
+
+.process-pillar-body{
+left: 16.12%;
+right: 63.81%;
+top: 52.65%;
+bottom: 44.9%;
+
+font-family: Gotham;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 170%;
+/* or 27px */
+text-align: center;	
+}
+
+.generate-leads {
+position: absolute;
+width: 954px;
+height: 49px;
+left: 503px;
+top: 3266px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 180%;
+/* or 72px */
+letter-spacing: -0.05em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.productivity-body {
+position: absolute;
+width: 954px;
+height: 753px;
+left: 504px;
+top: 3339px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 180%;
+/* or 32px */
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.8);	
+}
+
+.vertical-menu {
+position: absolute;
+width: 124px;
+height: 10px;
+left: 212px;
+bottom: 939px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+color: #000000;
+
+
+}
+
+/*buttons*/
+
+.button-color {
+position: absolute;
+width: 137px;
+height: 44px;
+left: 1205px;
+top: 69px;
+
+background: #FF6168;
+border-radius: 5px;
+
+
+/* Download */
+
+position: absolute;
+width: 143.52px;
+height: 51px;
+left: 1203px;
+top: 66px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.button-clear {
+
+	position: absolute;
+width: 137px;
+height: 44px;
+left: 1044px;
+top: 69px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+/*logo*/
+.logo {
+	position: absolute;
+width: 64px;
+height: 33px;
+left: 198px;
+top: 72px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+letter-spacing: -0.02em;
+
+color: #FF6368;
+
+border: 0.5px solid #FF5D69;
+}
+
+
+.topnav {
+position: absolute;
+width: 63px;
+height: 10px;
+left: 499px;
+bottom: 4213px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+color: #000000;
+
+	
 }
