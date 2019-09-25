@@ -5,6 +5,42 @@ body {
     background-color: white;
 }
 
+.topnav {
+	font-family: Poppins, Lato, Roboto;
+    color: black;	
+}
+
+.button-color {
+/* Rectangle 3.2 */
+
+position: absolute;
+width: 137px;
+height: 44px;
+left: 1205px;
+top: 69px;
+
+background: #FF6168;
+border-radius: 5px;
+
+
+/* Download */
+
+position: absolute;
+width: 143.52px;
+height: 51px;
+left: 1203px;
+top: 66px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
 h2, h3, h4, h5, h6, p { 
 	font-family: Poppins, Lato, Roboto;
     color: black;
@@ -21,7 +57,7 @@ font-size: 3em;
 .logo {
 font-family: Nunito;
 font-style: normal;
-font-size: 24px;
+font-size: 0.5em;
 color: #FF6368;
-
 }
+
