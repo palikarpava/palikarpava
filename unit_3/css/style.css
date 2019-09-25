@@ -14,21 +14,27 @@ body {
 
 h2, h3, h4, h5, h6, p, li, .vertical-menu { 
 	font-family: Poppins, Lato, Roboto;
-    color: black;
+    color:#000000;
 }
 
 
 h1 {
 font-family: Poppins, Lato, Roboto;
-font-style: normal;
-font-weight: bold;
+font-weight: black;
 font-size: 3em;
+color:#000000;
 }
 
 .logo {
 font-family: Nunito;
-font-style: normal;
 font-size: 0.5em;
 color: #FF6368;
+}
+
+h2 {
+font-family: Poppins, Lato, Roboto;	
+text-align: center;
+letter-spacing: -0.03em;
+color:#000000;
 }
 
