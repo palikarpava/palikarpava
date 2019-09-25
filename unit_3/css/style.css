@@ -5,6 +5,8 @@ body {
     background-color: white;
 }
 
+/*------------ NAVIGATION SECTION -----------*/
+
 .topnav a{
 	font-family: Poppins, Lato, Roboto;
     color: black;	
@@ -13,20 +15,6 @@ body {
     text-decoration: none;
 }
 
-
-
-h2, h3, h4, h5, h6, p, li, .vertical-menu { 
-	font-family: Poppins, Lato, Roboto;
-    color:#000000;
-}
-
-
-h1 {
-font-family: Poppins, Lato, Roboto;
-font-weight: black;
-font-size: 3em;
-color:#000000;
-}
 
 .topnav a.logo {
 font-family: Nunito;
@@ -41,6 +29,21 @@ text-decoration: none;
 .topnav span.contact{
 	border-left: 1px solid #00666D;
 	margin: 1em;
+}
+
+/*------------ END NAVIGATION SECTION -----------*/
+
+h2, h3, h4, h5, h6, p, li, .vertical-menu { 
+	font-family: Poppins, Lato, Roboto;
+    color:#000000;
+}
+
+
+h1 {
+font-family: Poppins, Lato, Roboto;
+font-weight: black;
+font-size: 3em;
+color:#000000;
 }
 
 h2 {
@@ -64,6 +67,8 @@ font-family: Poppins, Lato, Roboto;
 color: rgba(0, 0, 0, 0.54);
 
 }
+
+/* ---------- BUTTONS ------------- */
 
 .button-clear{
 	font-family: Poppins;
@@ -103,7 +108,7 @@ color: rgba(0, 0, 0, 0.54);
 	padding: 0.5em 1em 0.5em 1em;
 }
 
-
+/* ---------- END BUTTONS ------------- */
 
 .vertical-menu a{
 	font-family: Poppins, Lato, Roboto;
@@ -133,6 +138,8 @@ color: rgba(0, 0, 0, 0.54);
     color: #333333;
 }
 
+/* ----------  SECTION FEATURES ------------- */
+
 .pillar-header {
 	font-family: Poppins, Lato, Roboto;;
     font-style: normal;
@@ -153,6 +160,11 @@ text-align: center;
 color: rgba(0, 0, 0, 0.54);
 }
 
+/* ----------  END SECTION FEATURES ------------- */
+
+
+/* ---------- SECTION PROCESS ------------- */
+
 .process-pillar-header{
 font-family: Poppins;
 font-style: normal;
@@ -172,3 +184,5 @@ color: #000000;
     line-height: 170%;
     text-align: center;
 }
+
+/* ---------- END SECTION PROCESS ------------- */
