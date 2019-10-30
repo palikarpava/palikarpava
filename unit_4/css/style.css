@@ -1,188 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Poppins:400,800|Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nunito:900&display=swap');
 
-body {
-    background-color: white;
+h1, h2, h3 {
+color: 000000;
+padding: 10px;
+margin:0;    
 }
 
-/*------------ NAVIGATION SECTION -----------*/
-
-.topnav a{
-	font-family: Poppins, Lato, Roboto;
-    color: black;	
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration: none;
+img {
+    margin: 10px;
 }
 
-
-.topnav a.logo {
-font-family: Nunito;
-font-size: 24px;
-font-weight: 800;
-letter-spacing: -0.02em;
-line-height: 33px;
-color: #FF6368;
-text-decoration: none;
+p{
+    color:696969;
+    margin:20px 100px;
 }
 
-.topnav span.contact{
-	border-left: 1px solid #00666D;
-	margin: 1em;
+a{
+    color: #005780;
+    text:none;
 }
 
-/*------------ END NAVIGATION SECTION -----------*/
-
-h2, h3, h4, h5, h6, p, li, .vertical-menu { 
-	font-family: Poppins, Lato, Roboto;
-    color:#000000;
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-
-h1 {
-font-family: Poppins, Lato, Roboto;
-font-weight: black;
-font-size: 3em;
-color:#000000;
+nav {
+background-color: #E8C66A;
+border: 1px black solid;
+padding: 20px;
 }
 
-h2 {
-font-family: Poppins, Lato, Roboto;	
-text-align: center;
-letter-spacing: -0.03em;
-color:#000000;
-font-size: 50px;
+aside {
+background-color: #FFC675;
+border: 1px black solid;
+padding: 20px;
 }
 
-.pillar-header {
-font-family: Poppins, Lato, Roboto;	
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-color:#000000;	
+img{
+position: center;    
 }
 
-.pillar-body {
-font-family: Poppins, Lato, Roboto;
-color: rgba(0, 0, 0, 0.54);
-
+article {
+background-color: #E89C6C;
+border: 1px black solid;
+padding: 20px;
 }
 
-/* ---------- BUTTONS ------------- */
-
-.button-clear{
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 21px;
-	text-decoration: none;
-    background-color: white;
-    text-decoration-color: black;
-
-	border:1px solid #000000;
-	border-radius: 5px;
-
-	padding: 0.5em 1em 0.5em 1em;
-}
-.button-clear:hover{
-	color: white;
-	background-color: green;
-	border:1px solid green;
-	text-decoration: none;
+div section {
+background-color: #FFE2B8;
+border: 1px black solid;
+padding: 20px;
 }
 
-.button-color{
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: 400;
-	color: #FFFFFF;
-	font-size: 14px;
-	line-height: 21px;
-	text-decoration: none;
-    background-color: #FF6368;
-
-	border:1px solid #FF6368;
-	border-radius: 5px;
-
-	padding: 0.5em 1em 0.5em 1em;
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
-
-/* ---------- END BUTTONS ------------- */
-
-.vertical-menu a{
-	font-family: Poppins, Lato, Roboto;
-    color: black;	
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration: none;
-}
-
-
-.mid-body-text {
-	font-family: Poppins, Lato, Roboto;
-	font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.big-body-text {
-	font-family: Poppins, Lato, Roboto;;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 180%;
-    text-align: center;
-    color: #333333;
-}
-
-/* ----------  SECTION FEATURES ------------- */
-
-.pillar-header {
-	font-family: Poppins, Lato, Roboto;;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.87);
-}
-
-.pillar-body {
-font-family: Poppins, Lato, Roboto;;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: rgba(0, 0, 0, 0.54);
-}
-
-/* ----------  END SECTION FEATURES ------------- */
-
-
-/* ---------- SECTION PROCESS ------------- */
-
-.process-pillar-header{
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 120%;
-text-align: center;
-color: #000000;
-
-}
-
-.process-pillar-body{
-    font-family: Poppins, Lato, Roboto;;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 170%;
-    text-align: center;
-}
-
-/* ---------- END SECTION PROCESS ------------- */
