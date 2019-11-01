@@ -84,8 +84,15 @@ font-size: 50px;
 }
 main {
 font-family: Poppins, Lato, Roboto;
-color: rgba(0, 0, 0, 0.54);
+color: #000000;
+}
 
+p{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 180%;  
 }
 
 /* ---------- BUTTONS ------------- */
@@ -303,6 +310,16 @@ article.poll-demo{
     margin: 1em auto
 }
 
+.tabcontent{
+    float:left;
+    display: block;
+    width: 60%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+}
+
 .clearfix:after{
     visibility: hidden;
     display: block;
@@ -328,3 +345,4 @@ footer {
     border: 1em;
     
 }
+
