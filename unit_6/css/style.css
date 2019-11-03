@@ -517,6 +517,10 @@ div.faq-vertical-menu li a.active{
     text-decoration: underline;
 }
 
+figure.faq-image img{
+    width: 550px;
+}
+
 
 
 footer {
