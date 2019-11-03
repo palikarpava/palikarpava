@@ -285,7 +285,7 @@ article.poll-demo{
 div.vertical-menu{
     float: left;
     width: 200px;
-    margin-left: 2em;
+    margin-left: 6em;
 }
 div.vertical-menu li{
     list-style-type: none;
@@ -313,14 +313,211 @@ div.vertical-menu li a.active{
 /*------ ICONS -----*/
 i.multiple-devices-icon{
     background-image: url(../images/multipledevices.svg);
+    background-size: 86px;
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 86px;
+    display: block;
+
+    margin: 0.5em auto;
+}
+
+i.design-icon{
+    background-image: url(../images/design.svg);
+    background-size: 86px;
+    background-repeat: no-repeat;
+    width: 86px;
+    height:86px;
+    display: block;
+
+    margin: 0.5em auto;
+}
+
+i.customize-questions-icon{
+    background-image: url(../images/customize-questions.svg);
+    background-size: 86px;
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 86px;
+    display: block;
+
+    margin: 0.5em auto;
+}
+
+i.collect-answerss-icon{
+    background-image: url(../images/collect.svg);
+    background-size: 86px;
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 86px;
+    display: block;
+
+    margin: 0.5em auto;
+}
+
+i.user-friendly-icon{
+    background-image: url(../images/user-friendly.svg);
+    background-size: 86px;
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 86px;
+    display: block;
+
+    margin: 0.5em auto;
+}
+
+i.reports-icon{
+    background-image: url(../images/reports.svg);
+    background-size: 86px;
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 86px;
+    display: block;
+
+    margin: 0.5em auto;
+}
+
+
+i.download-icon{
+    background-image: url(../images/download.svg);
     background-size: 96px;
     background-repeat: no-repeat;
     width: 96px;
     height: 96px;
     display: block;
 
+    margin: 2em auto;
+}
+
+i.customize-icon{
+    background-image: url(../images/customize.svg);
+    background-size: 96px;
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 96px;
+    display: block;
+
+    margin: 2em auto;
+}
+
+i.generate-leads-icon{
+    background-image: url(../images/generateleads.svg);
+    background-size: 96px;
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 96px;
+    display: block;
+
+    margin: 2em auto;
+}
+
+.poll-demo{
+        width:1092px;
+}
+
+figure.laptop{
+    
+    align-content: center;
+    display: block;
+    width: 993.72px;
+    height: 584px;
+    padding:6em, 6em;
+    margin:6em, 6em;
+}
+
+.contact-page{
+    width:1092px;
+    display: block;
+    font-family: Poppins, Lato, Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+div.contact-form{
+    max-width: 500px;
+    align-content: center;
+    display: block;
+}
+
+article.contact-form{
+    background: #FFFFFF;
+    border: 1px solid #C9D6DF;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+input {  
+  width: 35%;
+  padding: 2em 4em;
+  margin: 2em 4em;
+  display: inline-block   
+    
+}
+div.form-field-input{
+    display: block;
+    margin-left: 12em;
+    font-size: 12px;
+}
+
+
+textarea {
+    resize: none;
+    display: block;
+    width: 35%;
+    height:200px;
+    padding: 2em 4em;
+    margin: 2em 4em;
+    background: #FFFFFF;
+    border: 1px solid #C9D6DF;
+    box-sizing: border-box;
+}
+
+article.features-overview{
+    width:1092px;
     margin: 1em auto;
 }
+div.feature-list {
+    width:50%;
+    float:left;
+}
+div.feature-image-wrapper{
+    width:50%;
+    float:right;
+}
+
+
+figure.feature-image{
+    width: 350px;
+    height: 350px;
+    margin: 0;
+}
+
+
+article.faq-section{
+    width:1092px;
+    margin: 1em auto;
+}
+
+div.faq-vertical-menu{
+    float: left;
+    width: 200px;
+    margin-left: 6em;
+}
+div.faq-vertical-menu li{
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+div.faq-vertical-menu li a{
+    font-size: 14px;
+    line-height: 24px;
+}
+div.faq-vertical-menu li a.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
 
 footer {
     width:1092px;
@@ -335,7 +532,7 @@ footer {
     padding:4em, 2em;
     margin-top: 4em;
     margin-bottom: 4em;
-    border: 1em;
+    border: 0.5em;
     
 }
 
