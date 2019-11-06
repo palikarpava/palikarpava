@@ -189,6 +189,10 @@ article.why-choose section p{
     color: rgba(0, 0, 0, 0.54);
 }
 
+.feature-section {
+    margin-bottom: 8em;
+}
+
 /* ----------  END SECTION FEATURES ------------- */
 
 
@@ -545,6 +549,9 @@ header nav.mobile{
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+    body{
+        margin: 0;
+    }
     header nav{
         display: none;
     }
@@ -560,10 +567,15 @@ header nav.mobile{
     header figure{
         display: none;
     }
+    nav a.logo{
+        padding-left: 0;
+    }
 
     h1{
         font-size: 24px;
         padding: 0;
+        margin: 0;
+        text-align: center;
     }
 
     h2 {
@@ -574,6 +586,7 @@ header nav.mobile{
         margin: 0;
         padding: 0;
         font-size: 14px;
+        color:black;
     }
 
     header ul{
@@ -607,9 +620,28 @@ header nav.mobile{
         width:90%;
     }
 
+    
+    article.productivity-section div.vertical-menu {
+        display: none;
+        width:90%;
+        margin: 0;
+            
+    }
+    
+    article.productivity-section {
+        width:90%;
+        min-width: inherit;
+        margin: 0 auto;
+    }
+    
+    .productivity-section .tabcontent {
+        padding: 0;
+        width: auto;
+        float: none;
+    }
+    
     article.three-value section.pillar{
         display:none;
-
     }
 
     article.poll-demo{
@@ -623,14 +655,56 @@ header nav.mobile{
     
     article.poll-demo figure{
         width:90%;
+        height: auto;
     }
 
     footer {
         width:90%;
     }
 
+    nav.mobile{
+        position: relative;
+        margin-bottom: 1em;
+        
+    }
+    nav a{
+        padding: 0;
+    }
+    header .mobile-menu{
+        display: block;
+        float: right;
+    }
     
+    article.features-overview {
+        width:90%;
+        min-width: inherit;
+        margin: 0 auto;
+        
+    } 
+    
+    article.features-overview .feature-image-wrapper {
+        float:none;
+        width: 90%;
+        display: block;
+    }
+    
+    article.features-overview  .feature-list {
+        float:none;
+        width: 100%;
+        display: block; 
+        
+    }
+    
+    article.features-overview img{
+        
+        display: block;
+        width:100%;
+        min-width: inherit;
+        margin: 0 auto;
     }
 
+    .feature-section {
+    margin-bottom: 2em;
+}
 }
 
