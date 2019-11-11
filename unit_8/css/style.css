@@ -80,7 +80,6 @@ nav span.contact{
 header {
     padding: 2em 2em 2em 2em;
     display: block;
-    width:100%;
     margin: 0.6em auto;
 }
 
@@ -223,8 +222,9 @@ article.why-choose section p{
 
 header figure{
     float: right;
-    width: 30%;
+/*    width: 30%;*/
     padding: 2em 4em 2em 2em;
+    text-align: center;
 }
 
 .color-icon{
@@ -246,7 +246,7 @@ article.why-choose section{
 }
 
 article.why-choose{
-    width: 90%;
+    max-width: 1092px;
     margin: 1em auto;
 }
 
@@ -259,7 +259,7 @@ article.three-value section.pillar{
 }
 
 article.three-value{
-    width:90%;
+    max-width: 1092px;
     margin: 1em auto;
 }
 
@@ -269,7 +269,8 @@ article.poll-demo{
 }
 
 .productivity-section{
-    min-width: 90%;;
+    max-width:  1092px;
+    margin: 1em auto;
 }
 .productivity-section h3{
     margin-top: 1.6em;
@@ -533,7 +534,6 @@ figure.faq-image img{
 
 
 footer {
-    width:1092px;
     margin: 1em auto;
     font-family: Poppins, Lato, Roboto;
     font-style: normal;
@@ -557,46 +557,11 @@ header nav.mobile{
 
 /*----FREQUENTLY ASKED QUESTIONS-----*/
 
-/*
-
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Hind', sans-serif;
-  background: #fff;
-  color: #4d5974;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-}
-*/
-
 .container {
   margin: 0 auto;
   padding: 4rem;
-  width: 48rem;
+/*  width: 48rem;*/
 }
-/*
-
-h3 {
-  font-size: 1.75rem;
-  color: #373d51;
-  padding: 1.3rem;
-  margin: 0;
-}
-*/
 
 .accordion a {
   position: relative;
@@ -682,172 +647,116 @@ h3 {
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
 }
+    
+@media only screen and (max-width: 1072px) {
+    article.why-choose{
+        max-width: 705px;
 
+    }
+    article.three-value{
+        max-width: 705px; 
+    }
+    
+    article.three-value section.pillar {
+        width: auto;
+    }
+    
+    article.three-value p.big-body-text{
+        margin:0;
+        padding:0;
+        
+    }
+    article.productivity-section{
+        max-width: 705px;
+    }
+}
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 1006px) { 
+    
+    h1#main-header{
+        font-size: 3.1em; 
+    }
+    header p.mid-body-text{
+        line-height: 1.9em;
+    }
+    h2.sub-header{
+        font-size: 2.1em;
+    }
+}
 
-    body{
+@media only screen and (max-width: 955px) {
+     header figure{
+        float: none;
+         margin: 0 auto;
+    }
+    nav a.logo{
+        padding-right: 1em;
+    }
+    nav a{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    article.why-choose{
+        max-width: 320px;
+    }
+    
+    article.why-choose p.big-body-text{
         margin: 0;
     }
+    
+    article.three-value {
+        max-width: 320px;
+    }
+    article.productivity-section {
+        max-width: 400px;
+    }
+    
+    h1#main-header{
+        font-size: 2.1em; 
+        margin: 0;
+        padding: 0.5em 0;
+    }
+    
+    header ul{
+        margin: 0;
+        padding: 2em 0;
+    }
+    
+    header.figure.img{
+        display: none;
+    }
+    
+    h2.sub-header{
+        font-size: 1.6em;
+    }
+    
+    p.mid-body-text{
+       margin: 0;
+        padding: 0; 
+    }
+    
+    p.big-body-text{
+        margin: 0;
+        padding: 0; 
+    }
+    
     header nav{
         display: none;
     }
     header nav.mobile{
-        display: block;
-    }
-
-    header{
-        width: 90%;
-        padding: 0;
-    }
-
-    header figure{
-        display: none;
-    }
-    nav a.logo{
-        padding-left: 0;
-    }
-
-    h1{
-        font-size: 1.8em;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    .mid-body-text{
-        margin: 0;
-        padding: 0;
-        font-size: 1em;
-        color:black;
-    }
-
-    header ul{
-        padding: 0;
-        margin: 0;
-        margin-left: 1em;
-        font-size: 1.4em;
-        margin-bottom: 1em;
-    }
-
-    .button-clear-demo{
-        margin: 0;
-    }
-
-    .big-body-text{
-        margin: 0;
-        font-size: 1.4em;
-    }
-
-    article.why-choose{
-        width: 90%;
-    }
-
-    article.why-choose section{
-        margin: 1em;
-        width: auto;
-        float: inherit;
-    }
-
-    article.three-value {
-        width:90%;
-    }
-
-    
-    article.productivity-section div.vertical-menu {
-        display: none;
-        width:90%;
-        margin: 0;
-            
-    }
-    
-    article.productivity-section {
-        width:90%;
-        min-width: inherit;
-        margin: 0 auto;
-    }
-    
-    .productivity-section .tabcontent {
-        padding: 0;
-        width: auto;
-        float: none;
-    }
-    
-    article.three-value section.pillar{
-        display:none;
-    }
-
-    article.poll-demo{
-        width:90%;
-    }
-    
-    article.poll-demo figure.laptop img{
-        width:90%;
-        
-    }
-    
-    article.poll-demo figure{
-        width:90%;
-        height: auto;
-    }
-    
-    article.faq-question{
-        width: 90%;
-        margin: 1em, auto;
-    }
-    
-    footer {
-        width:90%;
-    }
-
-    nav.mobile{
         position: relative;
         margin-bottom: 1em;
+        display: block;
         
-    }
-    nav a{
-        padding: 0;
     }
     header .mobile-menu{
         display: block;
         float: right;
+        padding: 1em;
     }
     
-    article.features-overview {
-        width:90%;
-        min-width: inherit;
-        margin: 0 auto;
-        
-    } 
-    
-    article.features-overview .feature-image-wrapper {
-        float:none;
-        width: 40%;
-        display: block;
-    }
-    
-    article.features-overview  .feature-list {
-        float:none;
-        width: 45%;
-        display: block;
-        margin-left: 5em;
-        
-    }
-    
-    article.features-overview img{
-        
-        display: block;
-        width:50%;
-        min-width: inherit;
-        margin: 0 auto;
-    }
-
-    .feature-section {
-    margin-bottom: 2em;
-}
 }
 
