@@ -3,6 +3,7 @@
 
 body {
     background-color: white;
+    font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, li, main, .vertical-menu { 
@@ -13,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li, main, .vertical-menu {
 
 h1 {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 4.2em;
     font-style: normal;
     line-height: 102.5%;
     letter-spacing: -0.05em; 
@@ -26,7 +27,7 @@ h1 {
 h2 {
     text-align: center;
     letter-spacing: -0.03em;
-    font-size: 50px;
+    font-size: 3.3em;
 }
 
 a, a:hover {
@@ -34,14 +35,14 @@ a, a:hover {
     text-decoration: none;
     text-decoration-color: black;
     font-weight: 400;
-	font-size: 14px;
-	line-height: 21px;
+	font-size: 1em;
+	line-height: 1.3em;
 }
 
 p{
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 180%;  
 }
 
@@ -49,7 +50,7 @@ p{
 /*------------ NAVIGATION SECTION -----------*/
 
 nav a{
-    line-height: 24px;
+    line-height: 1.7em;
     padding: 3em 2em 1em 2em;
     display: inline;
 }
@@ -57,10 +58,10 @@ nav a{
 
 nav a.logo {
     font-family: Nunito;
-    font-size: 24px;
+    font-size: 1.7em;
     font-weight: 800;
     letter-spacing: -0.02em;
-    line-height: 33px;
+    line-height: 2.3em;
     color: #FF6368;
     text-decoration: none;
     padding: 4em 2em 1em 2em;
@@ -78,7 +79,7 @@ nav span.contact{
 header {
     padding: 2em 2em 2em 2em;
     display: block;
-    width:1400px;
+    width:100%;
     margin: 0.6em auto;
 }
 
@@ -94,12 +95,12 @@ header {
 
 .button-clear{
 	font-weight: 400;
-	font-size: 14px;
-	line-height: 21px;
+	font-size: 1em;
+	line-height: 1.7em;
 	
     background-color: white;
 	border:1px solid #000000;
-	border-radius: 5px;
+	border-radius: 0.3em;
 
 	padding: 0.5em 1em 0.5em 1em;
 }
@@ -114,7 +115,7 @@ header {
     background-color: #FF6368;
     letter-spacing: -0.02em;
 	border:1px solid #FF6368;
-	border-radius: 5px;
+	border-radius: 0.3em;
 
 	padding: 0.5em 1em 0.5em 1em;
 }
@@ -123,7 +124,7 @@ header {
     background-color: white;
 
 	border:1px solid #000000;
-	border-radius: 5px;
+	border-radius: 0.3em;
     
     margin-left: 10em;
     padding: 0.5em 1em 0.5em 1em;
@@ -138,18 +139,18 @@ header {
 /* ---------- END BUTTONS ------------- */
 
 .mid-body-text {
-    line-height: 32px;
+    line-height: 2.9em;
     text-align: left;
-    color: rgba(0, 0, 0, 0.8);
+    color: #000000;
 
     margin-left: 6em;
-    padding-left: 30px;
+    padding-left: 2.9em;
     display: flex;
     
 }
 
 .big-body-text {
-    font-size: 16px;
+    font-size: 1.1em;
     line-height: 170%;
     text-align: center;
 
@@ -174,7 +175,7 @@ header ul {
 article.why-choose h3  {
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.1em;
     margin: 0;
     text-align: center;
     color: rgba(0, 0, 0, 0.87);
@@ -183,7 +184,7 @@ article.why-choose section{
     padding: 1em;
 }
 article.why-choose section p{
-    font-size: 12px;
+    font-size: 0.8em;
     /* line-height: 20px; */
     text-align: center;
     color: rgba(0, 0, 0, 0.54);
@@ -202,7 +203,7 @@ article.why-choose section p{
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.6em;
     line-height: 120%;
     text-align: center;
     color: #000000;
@@ -213,7 +214,7 @@ article.why-choose section p{
     font-family: Poppins, Lato, Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.1em;
     line-height: 170%;
     text-align: center;
 }
@@ -221,8 +222,7 @@ article.why-choose section p{
 
 header figure{
     float: right;
-    width: 307.91px;
-    height: 471px;
+    width: 30%;
     padding: 2em 4em 2em 2em;
 }
 
@@ -245,7 +245,7 @@ article.why-choose section{
 }
 
 article.why-choose{
-    width: 1092px;
+    width: 90%;
     margin: 1em auto;
 }
 
@@ -258,28 +258,28 @@ article.three-value section.pillar{
 }
 
 article.three-value{
-    width:1092px;
+    width:90%;
     margin: 1em auto;
 }
 
 article.poll-demo{
-    width:1092px;
+    max-width:90%;
     margin: 1em auto
 }
 
 .productivity-section{
-    min-width: 1140px;
+    min-width: 90%;;
 }
 .productivity-section h3{
-    margin-top: 16px;
+    margin-top: 1.6em;
 }
 .productivity-section p{
-    font-size: 14px;
+    font-size: 1em;
 }
 .productivity-section .tabcontent{
     float:right;
     display: none;
-    width: 60%;
+    width: 50%;
     padding-right: 8em;
 }
 .productivity-section section.active{
@@ -308,6 +308,7 @@ div.vertical-menu li a.active{
 .clearfix:after{
     visibility: hidden;
     display: block;
+    width: 90%;
     content: " ";
     clear: both;
     height: 0;
@@ -416,29 +417,34 @@ i.generate-leads-icon{
 }
 
 .poll-demo{
-        width:1092px;
+        width:90%;
 }
 
 figure.laptop{
     
-    align-content: center;
+    content: center;
+    width: 100%;
+    margin:1em auto;
+}
+
+figure.laptop img{
+    
     display: block;
-    width: 993.72px;
-    height: 584px;
+    width: 100%;
     margin:1em auto;
 }
 
 .contact-page{
-    width:1092px;
+    width:90%;
     display: block;
     font-family: Poppins, Lato, Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 1em;
+    line-height: 1.2em;
 }
 div.contact-form{
-    max-width: 500px;
+    max-width: 50%;
     align-content: center;
     display: block;
 }
@@ -460,7 +466,7 @@ input {
 div.form-field-input{
     display: block;
     margin-left: 12em;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 
@@ -477,7 +483,7 @@ textarea {
 }
 
 article.features-overview{
-    width:1092px;
+    max-width:  width:90px;
     margin: 1em auto;
 }
 div.feature-list {
@@ -491,14 +497,13 @@ div.feature-image-wrapper{
 
 
 figure.feature-image{
-    width: 350px;
-    height: 350px;
+    max-width: 50%;
     margin: 0;
 }
 
 
 article.faq-section{
-    width:1092px;
+    max-width:90%;
     margin: 1em auto;
 }
 
@@ -512,8 +517,8 @@ div.faq-vertical-menu li{
     margin-bottom: 1em;
 }
 div.faq-vertical-menu li a{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 1em;
+    line-height: 1.8em;
 }
 div.faq-vertical-menu li a.active{
     font-weight: bold;
@@ -532,8 +537,8 @@ footer {
     font-family: Poppins, Lato, Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 1em;
+    line-height: 1.4em;
     text-align: center;
     color:#000000; 
     padding:4em, 2em;
@@ -572,7 +577,7 @@ header nav.mobile{
     }
 
     h1{
-        font-size: 24px;
+        font-size: 1.8em;
         padding: 0;
         margin: 0;
         text-align: center;
@@ -585,7 +590,7 @@ header nav.mobile{
     .mid-body-text{
         margin: 0;
         padding: 0;
-        font-size: 14px;
+        font-size: 1em;
         color:black;
     }
 
@@ -593,7 +598,7 @@ header nav.mobile{
         padding: 0;
         margin: 0;
         margin-left: 1em;
-        font-size: 14px;
+        font-size: 1.4em;
         margin-bottom: 1em;
     }
 
@@ -603,7 +608,7 @@ header nav.mobile{
 
     .big-body-text{
         margin: 0;
-        font-size: 14px;
+        font-size: 1.4em;
     }
 
     article.why-choose{
@@ -657,7 +662,12 @@ header nav.mobile{
         width:90%;
         height: auto;
     }
-
+    
+    article.faq-question{
+        width: 90%;
+        margin: 1em, auto;
+    }
+    
     footer {
         width:90%;
     }
@@ -684,21 +694,22 @@ header nav.mobile{
     
     article.features-overview .feature-image-wrapper {
         float:none;
-        width: 90%;
+        width: 40%;
         display: block;
     }
     
     article.features-overview  .feature-list {
         float:none;
-        width: 100%;
-        display: block; 
+        width: 45%;
+        display: block;
+        margin-left: 5em;
         
     }
     
     article.features-overview img{
         
         display: block;
-        width:100%;
+        width:50%;
         min-width: inherit;
         margin: 0 auto;
     }
