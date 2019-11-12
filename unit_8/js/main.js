@@ -6,3 +6,12 @@ function toggleAccordion(){
 }
 
 items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+$('input,textarea').on('blur', function(){
+  if( !$(this).val() == "" ){
+    $(this).next().addClass('stay');
+  } else {
+    $(this).next().removeClass('stay');
+  }
+});
+

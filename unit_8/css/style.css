@@ -103,11 +103,12 @@ header {
 	border-radius: 0.3em;
 
 	padding: 0.5em 1em 0.5em 1em;
+    
 }
 .button-clear:hover{
 	color: white;
-	background-color: green;
-	border:1px solid green;
+	background-color: #008080;
+	border:1px solid #008080;
 }
 
 .button-color{
@@ -132,8 +133,8 @@ header {
 
 .button-clear-demo:hover{
 	color: white;
-	background-color: green;
-	border:1px solid green;
+	background-color: #008080;
+	border:1px solid #008080;
 }
 
 /* ---------- END BUTTONS ------------- */
@@ -445,61 +446,148 @@ figure.laptop img{
     font-size: 1em;
     line-height: 1.2em;
 }
-div.contact-form{
-    max-width: 50%;
-    align-content: center;
-    display: block;
+
+
+/*----------------CONTACT FORM------------------ */
+
+#form {
+  	width: 50%;
+    margin: 0 auto;
+   }
+
+fieldset {
+	border:none;
+  	position:relative;
+  	}
+
+input {
+  font-size: 1.2em;
+  width: 100%;
+  height: 50px;
+  border:1px solid #aaa;
+  border-radius:2px;
+  padding:1.5em 1em .8em 1em;
+  
+  background: transparent;
+  color: #000;
+  }
+
+input:focus {
+  outline:none;
+  background:transparent;
 }
 
-article.contact-form{
-    background: #FFFFFF;
-    border: 1px solid #C9D6DF;
-    box-sizing: border-box;
-    display: inline-block;
-    
+
+input + label {
+  display:block;
+  cursor:text;
+  color:#777;
+  transition:.15s ease-out all;
+  position:absolute;
+  top:40%;
+  left:5%;
 }
-input {  
-  width: 35%;
-  padding: 2em 4em;
-  margin: 2em 4em;
-  display: inline-block   
-    
-}
-div.form-field-input{
-    display: block;
-    margin-left: 12em;
-    font-size: 0.8em;
+
+input:focus + label,
+label.stay {
+  top:2em;
+  left:3em;
+  font-weight:bold;
+  font-size: .7em;
+  color:#FF6368;
+  transition:.15s ease-out all;
 }
 
 
 textarea {
-    resize: none;
-    display: block;
-    width: 35%;
-    height:200px;
-    padding: 2em 4em;
-    margin: 2em 4em;
-    background: #FFFFFF;
-    border: 1px solid #C9D6DF;
-    box-sizing: border-box;
+  font-size: 1.2em;
+  width: 100%;
+  height: 200px;
+  border:1px solid #aaa;
+  border-radius:2px;
+  padding:2.5em 1em .8em 1em;
+  
+  background: transparent;
+  outline: none;
+  color: #000;
+
+}
+
+textarea:focus {
+  outline:none;
+  background:transparent;
+}
+
+textarea + label {
+  display:block;
+  cursor:text;
+  color:#777;
+  transition:.15s ease-out all;
+  position:absolute;
+  top:40%;
+  left:5%;
+}
+
+textarea:focus + label,
+label.stay {
+  top:2em;
+  left:3em;
+  font-weight:bold;
+  font-size: .7em;
+  color:#FF6368;
+  transition:.15s ease-out all;
+ 
+}
+
+
+
+#submit {
+  border:1px solid #000000;
+  border-radius: 0.3em;
+  background-color: white;
+  width: 20%;
+  outline:none;
+  cursor: pointer;
+  margin:auto;
+  display:block;
+  margin-top: 15px;
+  font-size: 1em;
+  font-weight: 400px;
+  line-height: 1.7em;       
+  color: #000000;
+  padding: 0.5em 1em 0.5em 1em;
+ 
+}
+
+	
+
+#submit:hover {
+  transition: background-color 1s ease;
+  background-color: #008080;
+  border-color:  #008080;   
+  color: #FFFFFF;
 }
 
 article.features-overview{
-    max-width:  width:90px;
+    max-width:90%;
     margin: 1em auto;
 }
 div.feature-list {
-    width:50%;
+    width:38%;
     float:left;
+    margin-left: 12em;
 }
 div.feature-image-wrapper{
-    width:50%;
+    width:38%;
     float:right;
+    margin-right: 5em;
 }
 
 
 figure.feature-image{
-    max-width: 50%;
+     width: 100%; 
+     height: 100%; 
+     object-fit: contain; 
     margin: 0;
 }
 
@@ -725,9 +813,6 @@ header nav.mobile{
         padding: 2em 0;
     }
     
-    header.figure.img{
-        display: none;
-    }
     
     h2.sub-header{
         font-size: 1.6em;
@@ -757,6 +842,18 @@ header nav.mobile{
         float: right;
         padding: 1em;
     }
+    
+    #form {
+  	width: inherit;
+    margin: 0 auto;
+   }
+    
+    #submit {
+  width: 80%;
+        display: block;
+        margin:0 auto;
+  
+   }
     
 }
 

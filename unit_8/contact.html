@@ -3,6 +3,7 @@
     <head>
 <title>PNYX Wordpress Polling Plugin Home Page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/main.js" ></script>    
     <meta name="viewport" content="width=device-width, initialscale=1" />    
     <script src="https://kit.fontawesome.com/ed0b7d1a6b.js" crossorigin="anonymous"></script>
 </head>
@@ -23,33 +24,29 @@
           <a class="active logo" href="index.html">PNYX</a>
           <a class="mobile-menu" href="#">MENU</a>
       </nav>
+     
+      <h1 id="main-header"> Contact Form</h1>
 </header> 
     <body class="contact-page">
 
-  <form class="contact-form">
-     <div class="container-contact">
-     <h1 id=“Main Header”> Contact</h1>
+  <form id="form">
+		
+		<fieldset>
+			<input id="name" name="" type="text"/>
+			<label for="name">Name</label>
+		</fieldset>
 
-      <div class="form-field-input">   
-    <label for="name">Name *</label>
-    <input type="text" class="name" name="name" placeholder="Your name..">
-      </div>   
-      <div class="form-field-input">    
-    <label for="phone">Phone *</label>
-    <input type="text" class="phone" name="Phone" placeholder="Your phone..">
-      </div>
-      <div class="form-field-input">
-    <label for="email">Email *</label>
-    <input type="text" class="email" name="Email" placeholder="Your email..">
-      </div>
-      <div class="input-text-area">
-    <label for="subject">Subject</label>
-    <textarea class="subject" name="subject" placeholder="Write something.."> </textarea>
-      </div>
-      <div>
-    <a class="button-color" href="submit.html">Submit </a> 
-</div>
-      </div>
+		<fieldset>
+			<input id="email" name="" type="email"/>
+			<label for="email">Email</label>
+		</fieldset>
+
+		<fieldset>
+			<textarea id="message" name="" type="text"></textarea>
+			<label for="message">Message</label>
+		</fieldset>
+	  
+        <input id="submit" type="submit" value="Submit">	
         </form>
 
 
